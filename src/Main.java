@@ -30,7 +30,6 @@ public class Main {
             }else {
                 food = food -1;
                 System.out.println("탐험 중...(남은 식량 개수: "+food+"개)");
-
             }
         }
     }
@@ -53,6 +52,5 @@ public class Main {
         corb.explore();
         int f = corb.getFood();
         System.out.println("------- 남은 식량 : " + f);
-
     }
 }
