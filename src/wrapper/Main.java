@@ -28,7 +28,6 @@ public class Main {
         boolean ret = (a1 == a2);
         System.out.println("ret = " + ret);
 
-
         int compareTo = a.compareTo(b);
         System.out.println(compareTo);
         boolean equals = a.equals(b);
@@ -45,7 +44,6 @@ public class Main {
 
         int minValue = Integer.MIN_VALUE;
         System.out.println("minValue = "+minValue);
-
         /*
          * 기본형 연산 vs 래퍼 클래스 연산
          */
